@@ -40,3 +40,9 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+button {
+    background-color: blue;
+    padding-bottom: auto;
+    margin: 1rem;
+    text-align: center;
+}
