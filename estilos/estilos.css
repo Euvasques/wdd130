@@ -38,6 +38,11 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    border: 1px solid (0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
 }
 main img {
     margin-left: 20px;
