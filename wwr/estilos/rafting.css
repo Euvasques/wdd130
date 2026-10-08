@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--fonte-body);
-    color: var(--cor-destaque1)
+    color: var(--cor-destaque1);
 }
 
 header {
@@ -118,12 +118,21 @@ nav, p, section, article {
     padding: 8px;
 }
 
+article {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: 300px;
+  padding: 20px;
+  background-color: var(--cor-secundaria);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  font-family: var(--fonte-body);
+}
+
 .social-media a {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    margin-bottom: 10px;
+   text-decoration: none;
 }
 
 .social-media img {
@@ -146,22 +155,21 @@ nav, p, section, article {
     height: auto;
 }
 
-.hero h1 {
+ h1 {
   position: absolute;
   top: 20px;
   width: 100%;
   padding: 16px;
   text-align: center;
   opacity: 0.7;
-  background-color: var(--cor-destaque2);
+  background-color: var(--cor-destaque1);
   color: #fff; 
 }
 
+
 .hero article img {
-  position: absolute;
   float: right;
   width: 125px;
-    
 }
 
 .aventura {
