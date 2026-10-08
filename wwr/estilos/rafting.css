@@ -131,17 +131,17 @@ article {
   font-family: var(--fonte-body);
 }
 
-.social-media a {
+.redes-sociais a {
    text-decoration: none;
 }
 
-.social-media img {
+.redes-sociais img {
   width: 50px;
   height: 50px;
   transition: transform 0.3s ease;
 }
 
-.social-media img:hover {
+.redes-sociais img:hover {
   transform: scale(1.2);
 }
 
@@ -149,7 +149,12 @@ article {
     position: relative;
 }
 
+.hero article {
+  position:absolute
+}
+
 .hero img {
+  position: absolute;
     display: block;
     width: 100%;
     height: auto;
